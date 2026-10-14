@@ -1,0 +1,19 @@
+# Python e Jupyter
+__pycache__/
+.ipynb_checkpoints/
+*.pyc
+.venv/
+venv/
+
+# Configurações locais
+.env
+.env.*
+!.env.example
+
+# Arquivos temporários
+*.tmp
+*.bak
+
+# Histórico local do VS Code
+.lh/
+.lh/*
