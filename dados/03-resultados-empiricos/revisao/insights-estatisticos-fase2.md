@@ -1,24 +1,24 @@
 # Principais Insights Estatísticos — MADA Fase 2
 
-**Data de geração:** 14/10/2026 20:42:33
+**Data de geração:** 15/10/2026 14:36:32
 
 ## 1) Baseline entre anotadores
 - **Cohen's Kappa inicial:** `0.7664`
-- **IC 95% do Kappa (bootstrap):** `[0.7362, 0.7963]`
+- **IC 95% do Kappa (bootstrap):** `[0.7348, 0.7958]`
 - **Concordância observada:** `0.8453` (84.53%)
 - **Cramér's V:** `0.7679`
 
 > Interpretação: há concordância inicial relativamente alta entre os grupos de anotadores.
 
 ## 2) Concordância entre modelos pareados
-- **Média de κ_pred (4 classificadores):** `0.4854`
-- **Melhor κ_pred:** `LR` com `0.5191`
-- **Pior κ_pred:** `RF` com `0.4526`
+- **Média de κ_pred (4 classificadores):** `0.4904`
+- **Melhor κ_pred:** `LR` com `0.5140`
+- **Pior κ_pred:** `NB` com `0.4680`
 
 ## 3) Amplificação de divergências (Δκ = κ_anot - κ_pred)
-- **Δκ médio:** `+0.2810`
-- **Maior amplificação:** `RF` com `Δκ=+0.3138`
-- **Menor amplificação:** `LR` com `Δκ=+0.2473`
+- **Δκ médio:** `+0.2760`
+- **Maior amplificação:** `NB` com `Δκ=+0.2984`
+- **Menor amplificação:** `LR` com `Δκ=+0.2524`
 - **Modelos com amplificação detectada:** `4/4`
 
 ### Severidade (Landis & Koch, 1977)
@@ -29,10 +29,10 @@
 
 ## 4) Significância estatística (bootstrap de Δκ)
 - **Modelos com Δκ estatisticamente significativo:** `4/4`
-  - LR: Δκ observado `+0.2473`, IC95% `[+0.2113, +0.2854]`, direção: **AMPLIFICA**
-  - NB: Δκ observado `+0.2909`, IC95% `[+0.2545, +0.3289]`, direção: **AMPLIFICA**
-  - RF: Δκ observado `+0.3138`, IC95% `[+0.2757, +0.3529]`, direção: **AMPLIFICA**
-  - SVM: Δκ observado `+0.2719`, IC95% `[+0.2337, +0.3113]`, direção: **AMPLIFICA**
+  - LR: Δκ observado `+0.2524`, IC95% `[+0.2160, +0.2897]`, direção: **AMPLIFICA**
+  - NB: Δκ observado `+0.2984`, IC95% `[+0.2625, +0.3352]`, direção: **AMPLIFICA**
+  - RF: Δκ observado `+0.2645`, IC95% `[+0.2266, +0.3036]`, direção: **AMPLIFICA**
+  - SVM: Δκ observado `+0.2888`, IC95% `[+0.2510, +0.3279]`, direção: **AMPLIFICA**
 
 ## 5) Conclusão executiva
 - **Amplificação pontual (Δκ > 0):** `4/4` classificadores.
