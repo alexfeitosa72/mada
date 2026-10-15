@@ -1,0 +1,305 @@
+================================================================================
+RELATÓRIO DE AMPLIFICAÇÃO DE DIVERGÊNCIAS ANOTATIVAS - MADA FASE 3 (SINTÉTICO)
+================================================================================
+
+Data: 14/10/2026 23:31:33
+Seed: 42
+K-Fold: 5
+N Datasets: 12
+N Amostras por dataset: 999
+
+--------------------------------------------------------------------------------
+DATASET: SynSA-99
+--------------------------------------------------------------------------------
+
+BASELINE (Anotadores Sintéticos):
+  Cohen κ          : 0.9850
+  IC 95%           : [0.9759, 0.9940]
+  Faixa L&K        : Almost Perfect
+  Cramér's V       : 0.9850
+  χ²               : 1938.49
+  p-value          : 0.00e+00
+
+AMPLIFICAÇÃO DE DIVERGÊNCIAS ANOTATIVAS (Landis & Koch, 1977):
+
+κ_anot (anotadores): 0.9850
+
+SVM:
+  κ_pred       : 0.8715
+  Faixa L&K       : Almost Perfect
+  Δκ              : +0.1134
+  IC 95% Δκ       : [+0.0881, +0.1406]
+  Faixas perdidas : 0
+  Severidade      : Nulo
+  Amplifica?      : NÃO
+  Significativo?  : AMPLIFICA
+
+NB:
+  κ_pred       : 0.8622
+  Faixa L&K       : Almost Perfect
+  Δκ              : +0.1228
+  IC 95% Δκ       : [+0.0973, +0.1504]
+  Faixas perdidas : 0
+  Severidade      : Nulo
+  Amplifica?      : NÃO
+  Significativo?  : AMPLIFICA
+
+RF:
+  κ_pred       : 0.3279
+  Faixa L&K       : Fair
+  Δκ              : +0.6571
+  IC 95% Δκ       : [+0.6118, +0.7043]
+  Faixas perdidas : 3
+  Severidade      : Acentuado
+  Amplifica?      : SIM
+  Significativo?  : AMPLIFICA
+
+LR:
+  κ_pred       : 0.8718
+  Faixa L&K       : Almost Perfect
+  Δκ              : +0.1132
+  IC 95% Δκ       : [+0.0882, +0.1394]
+  Faixas perdidas : 0
+  Severidade      : Nulo
+  Amplifica?      : NÃO
+  Significativo?  : AMPLIFICA
+
+
+--------------------------------------------------------------------------------
+DATASET: SynSA-90
+--------------------------------------------------------------------------------
+
+BASELINE (Anotadores Sintéticos):
+  Cohen κ          : 0.8498
+  IC 95%           : [0.8220, 0.8769]
+  Faixa L&K        : Almost Perfect
+  Cramér's V       : 0.8499
+  χ²               : 1443.07
+  p-value          : 3.16e-311
+
+AMPLIFICAÇÃO DE DIVERGÊNCIAS ANOTATIVAS (Landis & Koch, 1977):
+
+κ_anot (anotadores): 0.8498
+
+SVM:
+  κ_pred       : 0.5715
+  Faixa L&K       : Moderate
+  Δκ              : +0.2784
+  IC 95% Δκ       : [+0.2379, +0.3217]
+  Faixas perdidas : 2
+  Severidade      : Amplo
+  Amplifica?      : SIM
+  Significativo?  : AMPLIFICA
+
+NB:
+  κ_pred       : 0.6006
+  Faixa L&K       : Substantial
+  Δκ              : +0.2492
+  IC 95% Δκ       : [+0.2102, +0.2911]
+  Faixas perdidas : 1
+  Severidade      : Restrito
+  Amplifica?      : SIM
+  Significativo?  : AMPLIFICA
+
+RF:
+  κ_pred       : 0.2255
+  Faixa L&K       : Fair
+  Δκ              : +0.6244
+  IC 95% Δκ       : [+0.5798, +0.6707]
+  Faixas perdidas : 3
+  Severidade      : Acentuado
+  Amplifica?      : SIM
+  Significativo?  : AMPLIFICA
+
+LR:
+  κ_pred       : 0.5953
+  Faixa L&K       : Moderate
+  Δκ              : +0.2546
+  IC 95% Δκ       : [+0.2163, +0.2970]
+  Faixas perdidas : 2
+  Severidade      : Amplo
+  Amplifica?      : SIM
+  Significativo?  : AMPLIFICA
+
+
+--------------------------------------------------------------------------------
+DATASET: SynSA-85
+--------------------------------------------------------------------------------
+
+BASELINE (Anotadores Sintéticos):
+  Cohen κ          : 0.7748
+  IC 95%           : [0.7415, 0.8076]
+  Faixa L&K        : Substantial
+  Cramér's V       : 0.7748
+  χ²               : 1199.35
+  p-value          : 2.20e-258
+
+AMPLIFICAÇÃO DE DIVERGÊNCIAS ANOTATIVAS (Landis & Koch, 1977):
+
+κ_anot (anotadores): 0.7748
+
+SVM:
+  κ_pred       : 0.4657
+  Faixa L&K       : Moderate
+  Δκ              : +0.3091
+  IC 95% Δκ       : [+0.2670, +0.3549]
+  Faixas perdidas : 1
+  Severidade      : Restrito
+  Amplifica?      : SIM
+  Significativo?  : AMPLIFICA
+
+NB:
+  κ_pred       : 0.4780
+  Faixa L&K       : Moderate
+  Δκ              : +0.2968
+  IC 95% Δκ       : [+0.2539, +0.3426]
+  Faixas perdidas : 1
+  Severidade      : Restrito
+  Amplifica?      : SIM
+  Significativo?  : AMPLIFICA
+
+RF:
+  κ_pred       : 0.1672
+  Faixa L&K       : Slight
+  Δκ              : +0.6076
+  IC 95% Δκ       : [+0.5603, +0.6547]
+  Faixas perdidas : 3
+  Severidade      : Acentuado
+  Amplifica?      : SIM
+  Significativo?  : AMPLIFICA
+
+LR:
+  κ_pred       : 0.4726
+  Faixa L&K       : Moderate
+  Δκ              : +0.3022
+  IC 95% Δκ       : [+0.2604, +0.3474]
+  Faixas perdidas : 1
+  Severidade      : Restrito
+  Amplifica?      : SIM
+  Significativo?  : AMPLIFICA
+
+
+--------------------------------------------------------------------------------
+DATASET: SynSA-60
+--------------------------------------------------------------------------------
+
+BASELINE (Anotadores Sintéticos):
+  Cohen κ          : 0.3994
+  IC 95%           : [0.3539, 0.4458]
+  Faixa L&K        : Fair
+  Cramér's V       : 0.3994
+  χ²               : 318.73
+  p-value          : 9.85e-68
+
+AMPLIFICAÇÃO DE DIVERGÊNCIAS ANOTATIVAS (Landis & Koch, 1977):
+
+κ_anot (anotadores): 0.3994
+
+SVM:
+  κ_pred       : 0.2627
+  Faixa L&K       : Fair
+  Δκ              : +0.1367
+  IC 95% Δκ       : [+0.0903, +0.1831]
+  Faixas perdidas : 0
+  Severidade      : Nulo
+  Amplifica?      : NÃO
+  Significativo?  : AMPLIFICA
+
+NB:
+  κ_pred       : 0.2330
+  Faixa L&K       : Fair
+  Δκ              : +0.1664
+  IC 95% Δκ       : [+0.1206, +0.2119]
+  Faixas perdidas : 0
+  Severidade      : Nulo
+  Amplifica?      : NÃO
+  Significativo?  : AMPLIFICA
+
+RF:
+  κ_pred       : 0.1158
+  Faixa L&K       : Slight
+  Δκ              : +0.2836
+  IC 95% Δκ       : [+0.2397, +0.3292]
+  Faixas perdidas : 1
+  Severidade      : Restrito
+  Amplifica?      : SIM
+  Significativo?  : AMPLIFICA
+
+LR:
+  κ_pred       : 0.2750
+  Faixa L&K       : Fair
+  Δκ              : +0.1244
+  IC 95% Δκ       : [+0.0794, +0.1710]
+  Faixas perdidas : 0
+  Severidade      : Nulo
+  Amplifica?      : NÃO
+  Significativo?  : AMPLIFICA
+
+
+--------------------------------------------------------------------------------
+DATASET: SynSA-50
+--------------------------------------------------------------------------------
+
+BASELINE (Anotadores Sintéticos):
+  Cohen κ          : 0.2507
+  IC 95%           : [0.2041, 0.2986]
+  Faixa L&K        : Fair
+  Cramér's V       : 0.2508
+  χ²               : 125.63
+  p-value          : 3.35e-26
+
+AMPLIFICAÇÃO DE DIVERGÊNCIAS ANOTATIVAS (Landis & Koch, 1977):
+
+κ_anot (anotadores): 0.2507
+
+SVM:
+  κ_pred       : 0.1552
+  Faixa L&K       : Slight
+  Δκ              : +0.0955
+  IC 95% Δκ       : [+0.0505, +0.1414]
+  Faixas perdidas : 1
+  Severidade      : Restrito
+  Amplifica?      : SIM
+  Significativo?  : AMPLIFICA
+
+NB:
+  κ_pred       : 0.1673
+  Faixa L&K       : Slight
+  Δκ              : +0.0835
+  IC 95% Δκ       : [+0.0399, +0.1293]
+  Faixas perdidas : 1
+  Severidade      : Restrito
+  Amplifica?      : SIM
+  Significativo?  : AMPLIFICA
+
+RF:
+  κ_pred       : 0.1140
+  Faixa L&K       : Slight
+  Δκ              : +0.1367
+  IC 95% Δκ       : [+0.0925, +0.1835]
+  Faixas perdidas : 1
+  Severidade      : Restrito
+  Amplifica?      : SIM
+  Significativo?  : AMPLIFICA
+
+LR:
+  κ_pred       : 0.1513
+  Faixa L&K       : Slight
+  Δκ              : +0.0995
+  IC 95% Δκ       : [+0.0546, +0.1459]
+  Faixas perdidas : 1
+  Severidade      : Restrito
+  Amplifica?      : SIM
+  Significativo?  : AMPLIFICA
+
+
+================================================================================
+SUMÁRIO GERAL
+================================================================================
+
+SVM: 10/12 datasets apresentam amplificação de divergências anotativas
+NB: 9/12 datasets apresentam amplificação de divergências anotativas
+RF: 12/12 datasets apresentam amplificação de divergências anotativas
+LR: 9/12 datasets apresentam amplificação de divergências anotativas
+
+================================================================================

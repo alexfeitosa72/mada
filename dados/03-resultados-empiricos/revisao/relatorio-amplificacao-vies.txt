@@ -1,0 +1,62 @@
+================================================================================
+RELATÓRIO DE AMPLIFICAÇÃO DAS DIVERGÊNCIAS - MADA FASE 2
+================================================================================
+
+Data: 14/10/2026 20:42:33
+Seed: 42
+K-Fold: 5
+N Amostras: 1222
+
+--------------------------------------------------------------------------------
+BASELINE
+--------------------------------------------------------------------------------
+
+Cohen_Kappa              : 0.7664
+Concordancia             : 0.8453
+Chi2                     : 1441.03
+p_value                  : 8.76e-311
+Cramers_V                : 0.7679
+N_amostras               : 1222
+Kappa_IC95_Lower         : 0.7362
+Kappa_IC95_Upper         : 0.7963
+
+--------------------------------------------------------------------------------
+AMPLIFICAÇÃO
+--------------------------------------------------------------------------------
+
+κ_anot: 0.7664
+
+SVM:
+  κ_pred : 0.4945
+  Δκ        : +0.2719
+  Severidade: Restrito
+  Amplificação pontual?: SIM
+
+NB:
+  κ_pred : 0.4755
+  Δκ        : +0.2909
+  Severidade: Restrito
+  Amplificação pontual?: SIM
+
+RF:
+  κ_pred : 0.4526
+  Δκ        : +0.3138
+  Severidade: Restrito
+  Amplificação pontual?: SIM
+
+LR:
+  κ_pred : 0.5191
+  Δκ        : +0.2473
+  Severidade: Restrito
+  Amplificação pontual?: SIM
+
+================================================================================
+
+EVIDÊNCIA INFERENCIAL (IC95% bootstrap por fold)
+LR: IC95% [+0.2113; +0.2854], AMPLIFICA
+NB: IC95% [+0.2545; +0.3289], AMPLIFICA
+RF: IC95% [+0.2757; +0.3529], AMPLIFICA
+SVM: IC95% [+0.2337; +0.3113], AMPLIFICA
+
+4/4 modelos com evidência de amplificação.
+Nota: os intervalos condicionam-se às predições e ao κ inicial observados.
