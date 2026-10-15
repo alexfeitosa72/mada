@@ -2,7 +2,7 @@
 RELATÓRIO DE AMPLIFICAÇÃO DE DIVERGÊNCIAS ANOTATIVAS - MADA FASE 3 (SINTÉTICO)
 ================================================================================
 
-Data: 14/10/2026 23:31:33
+Data: 15/10/2026 15:41:49
 Seed: 42
 K-Fold: 5
 N Datasets: 12
@@ -31,7 +31,7 @@ SVM:
   IC 95% Δκ       : [+0.0881, +0.1406]
   Faixas perdidas : 0
   Severidade      : Nulo
-  Amplifica?      : NÃO
+  Amplifica?      : SIM
   Significativo?  : AMPLIFICA
 
 NB:
@@ -41,7 +41,7 @@ NB:
   IC 95% Δκ       : [+0.0973, +0.1504]
   Faixas perdidas : 0
   Severidade      : Nulo
-  Amplifica?      : NÃO
+  Amplifica?      : SIM
   Significativo?  : AMPLIFICA
 
 RF:
@@ -61,7 +61,7 @@ LR:
   IC 95% Δκ       : [+0.0882, +0.1394]
   Faixas perdidas : 0
   Severidade      : Nulo
-  Amplifica?      : NÃO
+  Amplifica?      : SIM
   Significativo?  : AMPLIFICA
 
 
@@ -202,7 +202,7 @@ SVM:
   IC 95% Δκ       : [+0.0903, +0.1831]
   Faixas perdidas : 0
   Severidade      : Nulo
-  Amplifica?      : NÃO
+  Amplifica?      : SIM
   Significativo?  : AMPLIFICA
 
 NB:
@@ -212,7 +212,7 @@ NB:
   IC 95% Δκ       : [+0.1206, +0.2119]
   Faixas perdidas : 0
   Severidade      : Nulo
-  Amplifica?      : NÃO
+  Amplifica?      : SIM
   Significativo?  : AMPLIFICA
 
 RF:
@@ -232,7 +232,7 @@ LR:
   IC 95% Δκ       : [+0.0794, +0.1710]
   Faixas perdidas : 0
   Severidade      : Nulo
-  Amplifica?      : NÃO
+  Amplifica?      : SIM
   Significativo?  : AMPLIFICA
 
 
@@ -297,9 +297,9 @@ LR:
 SUMÁRIO GERAL
 ================================================================================
 
-SVM: 10/12 datasets apresentam amplificação de divergências anotativas
-NB: 9/12 datasets apresentam amplificação de divergências anotativas
+SVM: 12/12 datasets apresentam amplificação de divergências anotativas
+NB: 12/12 datasets apresentam amplificação de divergências anotativas
 RF: 12/12 datasets apresentam amplificação de divergências anotativas
-LR: 9/12 datasets apresentam amplificação de divergências anotativas
+LR: 12/12 datasets apresentam amplificação de divergências anotativas
 
 ================================================================================
