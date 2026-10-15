@@ -1,0 +1,8 @@
+# Python 3.13.15 (ver .python-version)
+pandas==2.3.0
+numpy==2.3.0
+scipy==1.15.3
+scikit-learn==1.7.0
+matplotlib==3.10.3
+seaborn==0.13.2
+ipykernel==6.29.5
