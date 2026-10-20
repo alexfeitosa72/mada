@@ -1,0 +1,7 @@
+O conjunto de dados compreende 13.317 anotações produzidas por 46 participantes únicos, identificados por hashes individuais, 
+sendo 26 do gênero masculino e 20 do feminino. Cada anotação corresponde à avaliação de uma frase por um participante, e não a um participante distinto. 
+As 1.463 frases foram distribuídas em nove blocos de 150 frases e um bloco de 113 frases. Como alguns participantes avaliaram mais de um bloco, 
+foram registradas 91 participações em blocos: 82 nos blocos de 150 frases e nove no bloco de 113 frases. Assim, o total de anotações é exatamente (82 × 150) + (9 × 113) = 13.317.
+
+Para defender metodologicamente, apresente sempre os dois números juntos: “46 participantes e 13.317 anotações”. 
+Em análises estatísticas, as várias respostas de uma mesma pessoa também precisam ser consideradas como medidas repetidas; elas não constituem 13.317 participantes independentes.
