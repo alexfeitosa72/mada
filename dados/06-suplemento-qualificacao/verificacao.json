@@ -1,0 +1,18 @@
+{
+  "python": "3.13.15 (tags/v3.13.15:4061bc4, Aug  5 2026, 13:05:39) [MSC v.1944 64 bit (AMD64)]",
+  "pandas": "2.3.0",
+  "numpy": "2.3.0",
+  "sklearn": "1.7.0",
+  "matplotlib": "3.10.3",
+  "entradas_sha256": {
+    "dados\\03-resultados-empiricos\\predicoes-completas.csv": "a44dad89e2b32418cd9ed67b5be7eef42596681f1e013ac9ca6ddf0dd6c6f25b",
+    "dados\\03-resultados-empiricos\\metricas-modelos-pareados.csv": "dbca7a963d4cb7da58309a944519128528929bc548db92eb0f0c6bbd710a6ef3",
+    "dados\\02-logs-processados\\mqd-1222-majoritarias.csv": "8d34459b50513f6334aac41f3998fb5a1115149d25660cb2306f705d2b4cfa17",
+    "fase2-dados-empiricos.ipynb": "ad2132afaa48b647a2885c2285acc6bcaa6c8ff3b226fbeab95748871ce5e390",
+    "fase3-dados-sinteticos.ipynb": "920fe670884827338538445040a73899a221c7226de315459cec662108088dfc",
+    "dados\\03-resultados-empiricos\\significancia-delta-kappa.csv": "a0a4e26a7fc74795f33c2a396a0f9d77f074e0f338faf104733c180e91970159",
+    "dados\\03-resultados-empiricos\\comparacao-bootstrap.csv": "7ffadf79ef18544d651093538e8ff6a309153aca1fbb946d38623923700e1af0"
+  },
+  "validacoes": "Cobertura 1222/modelo; IDs únicos; folds pareados; rótulos e texto alinhados ao corpus; médias e DP certificados reproduzidos a 1e-12.",
+  "sintetico": "Acurácia/F1 não recuperáveis dos resumos salvos; nenhum treinamento executado."
+}
