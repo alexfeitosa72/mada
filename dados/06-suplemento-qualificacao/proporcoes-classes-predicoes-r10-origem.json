@@ -1,0 +1,11 @@
+{
+  "fonte": "dados\\03-resultados-empiricos\\predicoes-completas.csv",
+  "sha256": "a44dad89e2b32418cd9ed67b5be7eef42596681f1e013ac9ca6ddf0dd6c6f25b",
+  "agregacao": "Contagem nas 1222 predições out-of-fold reunidas por modelo e grupo; não é média de proporções por fold.",
+  "classes": {
+    "-1": "Negativa",
+    "0": "Neutra",
+    "1": "Positiva"
+  },
+  "validacoes": "IDs únicos; cobertura integral por modelo; cinco folds; soma 100% em cada barra."
+}
