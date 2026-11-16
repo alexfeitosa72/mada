@@ -1,0 +1,6 @@
+# Notebooks: o filtro nbstripout remove do commit o contador de execucao e o
+# kernel (nome e versao), mantendo o codigo e as saidas das celulas.
+# Em cada copia do repositorio, configure o filtro uma vez:
+#   python -m pip install --user nbstripout
+#   python -m nbstripout --install --keep-output --extra-keys "metadata.kernelspec metadata.language_info.version"
+*.ipynb filter=nbstripout diff=ipynb eol=lf
